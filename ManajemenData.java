@@ -190,7 +190,7 @@ public class ManajemenData {
         
         if (mahasiswaMap.containsKey(nim)) {
             mahasiswaMap.remove(nim);
-            // Untuk implementasi delete di BST perlu lebih kompleks, di contoh ini hanya menghapus dari HashMap
+      
             System.out.println("Mahasiswa dengan NIM " + nim + " berhasil dihapus");
         } else {
             System.out.println("Mahasiswa dengan NIM " + nim + " tidak ditemukan");
